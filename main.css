@@ -1,0 +1,27 @@
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.blank {
+    flex: 1;
+}
+
+.border {
+    border: 1px solid gray;
+}
+
+#left{
+    width: 250px;
+}
+
+#right{
+    width: 1;
+}
